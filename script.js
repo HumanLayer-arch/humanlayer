@@ -184,20 +184,7 @@
 })();
 
 
-/* ─── 6. WHITE PAPER DOWNLOAD BUTTON ────────────────────────── */
-(function initDownload() {
-  const btn = document.getElementById('dlBtn');
-  if (!btn) return;
 
-  btn.addEventListener('click', () => {
-    btn.textContent = 'Coming soon ·';
-    btn.style.background = 'var(--dark)';
-    setTimeout(() => {
-      btn.textContent = 'Download the White Paper';
-      btn.style.background = '';
-    }, 2600);
-  });
-})();
 
 
 /* ─── 7. SMOOTH CURSOR CROSSHAIR (desktop only) ──────────────── */
