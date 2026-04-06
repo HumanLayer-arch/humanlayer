@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Human Layer — A conceptual framework for human–AI decision systems."/>
+  <meta name="description" content="Human Layer — Un marco conceptual para sistemas de decisión humano–IA."/>
   <title>Human Layer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=Syne+Mono&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-
-  <canvas id="bg"></canvas>
 
   <!-- ─── NAV ─── -->
   <nav id="nav">
@@ -22,9 +20,9 @@
       </a>
       <ul class="nav-links">
         <li><a href="#idea">La Idea</a></li>
-        <li><a href="Human-Layer-White-Paper.pdf" target="_blank">Documento White Paper</a></li>
+        <li><a href="Human-Layer-White-Paper.pdf" target="_blank">White Paper</a></li>
         <li><a href="#applications">Aplicaciones</a></li>
-        <li><a href="Modos_Humanos.pdf" download>Libro Modos Humanos</a></li>
+        <li><a href="Modos_Humanos.pdf" download>Libro</a></li>
         <li><a href="#about">Sobre mí</a></li>
         <li><a href="index.html">EN</a></li>
       </ul>
@@ -35,10 +33,10 @@
   </nav>
 
   <div class="mob-menu" id="mobMenu">
-    <a href="#idea"         class="mob-link">The Idea</a>
-    <a href="#whitepaper"   class="mob-link">White Paper</a>
-    <a href="#applications" class="mob-link">Applications</a>
-    <a href="#about"        class="mob-link">About</a>
+    <a href="#idea" class="mob-link">La Idea</a>
+    <a href="Human-Layer-White-Paper.pdf" class="mob-link">White Paper</a>
+    <a href="#applications" class="mob-link">Aplicaciones</a>
+    <a href="#about" class="mob-link">Sobre mí</a>
   </div>
 
   <!-- ─── HOME ─── -->
@@ -46,19 +44,19 @@
     <div class="wrap home-grid">
 
       <div class="home-copy">
-        <p class="mono kicker reveal">Conceptual Framework · 2026</p>
+        <p class="mono kicker reveal">Marco conceptual · 2026</p>
         <h1 class="reveal d1">Human<br/><span class="blue">Layer</span></h1>
         <p class="lead reveal d2">
-          A new architectural layer between humans and intelligent machines —
-          designed to preserve human judgment in an age of accelerating autonomy.
+          Una nueva capa arquitectónica entre humanos y máquinas inteligentes —
+          diseñada para preservar el juicio humano en una era de autonomía acelerada.
         </p>
-        <a href="#idea" class="cta reveal d3">Explore the framework <span class="arr">→</span></a>
+        <a href="#idea" class="cta reveal d3">Explorar el marco <span class="arr">→</span></a>
       </div>
 
       <div class="arch-diagram reveal d2">
         <div class="ad-node">
-          <span class="mono ad-tag">layer 3</span>
-          <span class="ad-name">Human</span>
+          <span class="mono ad-tag">capa 3</span>
+          <span class="ad-name">Humano</span>
         </div>
         <div class="ad-bridge">
           <span class="adb-dot"></span>
@@ -66,7 +64,7 @@
           <span class="adb-dot"></span>
         </div>
         <div class="ad-node ad-hl">
-          <span class="mono ad-tag">regulatory layer</span>
+          <span class="mono ad-tag">capa reguladora</span>
           <span class="ad-name">Human Layer</span>
         </div>
         <div class="ad-bridge">
@@ -75,133 +73,69 @@
           <span class="adb-dot"></span>
         </div>
         <div class="ad-node">
-          <span class="mono ad-tag">layer 1</span>
-          <span class="ad-name">Machine Intelligence</span>
+          <span class="mono ad-tag">capa 1</span>
+          <span class="ad-name">Inteligencia de Máquina</span>
         </div>
       </div>
 
     </div>
-    <div class="scroll-cue reveal d3">
-      <span class="sc-dot"></span>
-      <span class="mono">scroll</span>
-    </div>
   </section>
 
-  <!-- ─── THE IDEA ─── -->
+  <!-- ─── IDEA ─── -->
   <section id="idea" class="s-idea">
     <div class="wrap">
 
       <header class="sec-head reveal">
         <p class="mono sec-n">01 —</p>
-        <h2>The Idea</h2>
-        <p class="sec-sub">A new architecture for human–AI interaction</p>
+        <h2>La Idea</h2>
+        <p class="sec-sub">Una nueva arquitectura para la interacción humano–IA</p>
       </header>
 
       <div class="idea-row reveal">
         <div class="ir-label">
           <span class="mono ir-n">01</span>
-          <h3>What is<br/>Human Layer</h3>
+          <h3>Qué es<br/>Human Layer</h3>
         </div>
         <div class="ir-body">
-          <p>Human Layer is not another artificial intelligence system.</p>
-          <p>It is a structural layer designed to <strong>regulate the interaction</strong> between humans and intelligent machines.</p>
-          <p>Its purpose is simple: to ensure that increasingly powerful technologies remain aligned with human judgment, responsibility, and long-term wellbeing.</p>
+          <p>Human Layer no es otro sistema de inteligencia artificial.</p>
+          <p>Es una capa estructural diseñada para <strong>regular la interacción</strong> entre humanos y máquinas inteligentes.</p>
+          <p>Su propósito es simple: asegurar que tecnologías cada vez más potentes permanezcan alineadas con el juicio humano, la responsabilidad y el bienestar a largo plazo.</p>
         </div>
       </div>
-
-      <div class="hl-sep reveal"><span class="sp-d"></span><span class="sp-l"></span><span class="sp-d"></span></div>
 
       <div class="idea-row reveal">
         <div class="ir-label">
           <span class="mono ir-n">02</span>
-          <h3>The<br/>Problem</h3>
+          <h3>El problema</h3>
         </div>
         <div class="ir-body">
-          <p>Modern AI systems optimise outcomes.</p>
-          <p>But <strong>optimisation alone cannot decide</strong> what should happen.</p>
-          <p>Without a human decision architecture, systems risk amplifying:</p>
+          <p>Los sistemas de IA modernos optimizan resultados.</p>
+          <p>Pero <strong>optimizar no es decidir</strong>.</p>
+          <p>Sin una arquitectura de decisión humana, los sistemas pueden amplificar:</p>
           <ul class="idea-list">
-            <li>short-term incentives</li>
-            <li>misaligned objectives</li>
-            <li>unintended consequences</li>
+            <li>incentivos a corto plazo</li>
+            <li>objetivos desalineados</li>
+            <li>consecuencias no previstas</li>
           </ul>
-          <p>The challenge is not intelligence.</p>
-          <p class="em">The challenge is decision structure.</p>
+          <p>El reto no es la inteligencia.</p>
+          <p class="em">El reto es la estructura de decisión.</p>
         </div>
       </div>
-
-      <div class="hl-sep reveal"><span class="sp-d"></span><span class="sp-l"></span><span class="sp-d"></span></div>
 
       <div class="idea-row reveal">
         <div class="ir-label">
           <span class="mono ir-n">03</span>
-          <h3>What Human<br/>Layer Enables</h3>
+          <h3>Qué permite<br/>Human Layer</h3>
         </div>
         <div class="ir-body">
-          <p>Human Layer introduces a framework that allows humans and machines to collaborate <strong>without losing human agency.</strong></p>
-          <p>It creates systems where:</p>
+          <p>Human Layer introduce un marco que permite colaborar con máquinas <strong>sin perder agencia humana.</strong></p>
+          <p>Crea sistemas donde:</p>
           <ul class="idea-list">
-            <li>machines analyse</li>
-            <li>humans interpret</li>
-            <li>decisions remain accountable</li>
+            <li>las máquinas analizan</li>
+            <li>los humanos interpretan</li>
+            <li>las decisiones siguen siendo responsables</li>
           </ul>
-          <p>The goal is not to slow down technology.</p>
-          <p class="em">The goal is to make it habitable.</p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ─── WHITE PAPER ─── -->
-  <section id="whitepaper" class="s-wp">
-    <div class="wrap">
-
-      <header class="sec-head reveal">
-        <p class="mono sec-n">02 —</p>
-        <h2>White Paper</h2>
-        <p class="sec-sub">A conceptual framework for human–AI decision systems</p>
-      </header>
-
-      <div class="wp-grid">
-        <div class="wp-left">
-          <p class="reveal">Human Layer is presented in a structured research document exploring the conceptual foundations, architectural principles, and practical implications of introducing a human regulatory layer into increasingly autonomous technological systems.</p>
-          <p class="reveal d1">The paper outlines the problem, proposes a framework, and explores potential applications across sectors where human decision integrity must be preserved.</p>
-
-          <ol class="toc">
-            <li class="reveal d1"><span class="mono tn">01</span>The emerging coordination problem</li>
-            <li class="reveal d1"><span class="mono tn">02</span>Why optimisation is not enough</li>
-            <li class="reveal d2"><span class="mono tn">03</span>The Human Layer hypothesis</li>
-            <li class="reveal d2"><span class="mono tn">04</span>Architectural principles</li>
-            <li class="reveal d3"><span class="mono tn">05</span>Human–machine decision systems</li>
-            <li class="reveal d3"><span class="mono tn">06</span>Practical implications</li>
-          </ol>
-        </div>
-
-        <div class="wp-card reveal d2">
-          <div class="vdiag">
-            <div class="vd-node"><span class="mono vd-tag">decision</span><span class="vd-name">Human</span></div>
-            <div class="vd-bridge"><span class="vdb-d"></span><span class="vdb-l"></span><span class="vdb-d"></span></div>
-            <div class="vd-node vd-hl"><span class="mono vd-tag">regulatory layer</span><span class="vd-name">Human Layer</span></div>
-            <div class="vd-bridge"><span class="vdb-d"></span><span class="vdb-l"></span><span class="vdb-d"></span></div>
-            <div class="vd-node"><span class="mono vd-tag">analysis</span><span class="vd-name">Machine</span></div>
-          </div>
-          <div class="wp-dl">
-  <a href="Human-Layer-White-Paper.pdf" target="_blank" class="btn-dl">
-    Descargar Documento White Paper
-  </a>
-
-  <a href="Modos_Humanos.pdf" download class="btn-dl" style="margin-top:10px;">
-    Descargar Libro Modos Humanos
-  </a>
-
-  <span class="mono dl-sub">PDF — Documents</span>
-</div>
-          <div class="wp-meta">
-            <span class="mono">First published: 2026</span>
-            <span class="mono">Author: Edgar Prieto Sarrat</span>
-            <span class="mono">Framework: Human Layer</span>
-          </div>
+          <p class="em">El objetivo no es frenar la tecnología, sino hacerla habitable.</p>
         </div>
       </div>
 
@@ -213,18 +147,18 @@
     <div class="wrap">
 
       <header class="sec-head reveal">
-        <p class="mono sec-n">03 —</p>
-        <h2>Applications</h2>
-        <p class="sec-sub">Where Human Layer becomes operational</p>
+        <p class="mono sec-n">02 —</p>
+        <h2>Aplicaciones</h2>
+        <p class="sec-sub">Dónde Human Layer se vuelve operativo</p>
       </header>
 
       <div class="apps-grid">
-        <div class="app-card reveal d1"><span class="mono ac-n">01</span><h3>AI Systems</h3><p>Human Layer regulates how advanced AI systems interact with human decisions — structuring collaboration between machine intelligence and human responsibility rather than replacing judgment.</p><span class="ac-pip"></span></div>
-        <div class="app-card reveal d1"><span class="mono ac-n">02</span><h3>Financial Systems</h3><p>Financial markets rely on automated models. Human Layer introduces a decision architecture ensuring strategic choices remain aligned with human oversight and long-term stability.</p><span class="ac-pip"></span></div>
-        <div class="app-card reveal d2"><span class="mono ac-n">03</span><h3>Robotics</h3><p>As autonomous robots enter real-world environments, a regulatory layer becomes essential. Human Layer ensures machines operate within human-defined boundaries while remaining adaptive.</p><span class="ac-pip"></span></div>
-        <div class="app-card reveal d2"><span class="mono ac-n">04</span><h3>Healthcare</h3><p>Medical AI assists diagnosis and treatment planning. Human Layer ensures clinical decisions integrate human expertise, ethical responsibility, and machine-supported analysis.</p><span class="ac-pip"></span></div>
-        <div class="app-card reveal d3"><span class="mono ac-n">05</span><h3>Cybersecurity</h3><p>Security systems rely on automated detection and response. Human Layer structures the interaction between automated defence mechanisms and human strategic control.</p><span class="ac-pip"></span></div>
-        <div class="app-card reveal d3"><span class="mono ac-n">06</span><h3>Governance</h3><p>Public institutions increasingly interact with algorithmic systems. Human Layer ensures technological power remains accountable to human governance structures.</p><span class="ac-pip"></span></div>
+        <div class="app-card reveal"><h3>Sistemas de IA</h3><p>Regula la interacción entre decisiones humanas y sistemas inteligentes.</p></div>
+        <div class="app-card reveal"><h3>Sistemas financieros</h3><p>Asegura decisiones alineadas con estabilidad y supervisión humana.</p></div>
+        <div class="app-card reveal"><h3>Robótica</h3><p>Define límites operativos en entornos reales.</p></div>
+        <div class="app-card reveal"><h3>Salud</h3><p>Integra criterio humano con análisis automatizado.</p></div>
+        <div class="app-card reveal"><h3>Ciberseguridad</h3><p>Estructura la defensa automatizada con control humano.</p></div>
+        <div class="app-card reveal"><h3>Gobernanza</h3><p>Mantiene responsabilidad humana en sistemas públicos.</p></div>
       </div>
 
     </div>
@@ -235,46 +169,11 @@
     <div class="wrap">
 
       <header class="sec-head reveal">
-        <p class="mono sec-n">04 —</p>
-        <h2>About</h2>
-        <p class="sec-sub">Origins and purpose of Human Layer</p>
+        <p class="mono sec-n">03 —</p>
+        <h2>Sobre mí</h2>
       </header>
 
-      <div class="about-grid">
-
-        <div class="about-block reveal d1">
-          <h3>Origin</h3>
-          <p>Human Layer emerged from a simple observation: as artificial intelligence becomes increasingly capable, the challenge is no longer intelligence itself, but how humans and machines coordinate decisions.</p>
-          <p>The concept proposes that advanced technological systems require a structural layer that preserves human responsibility, judgment, and long-term alignment.</p>
-        </div>
-
-        <div class="about-block reveal d2">
-          <h3>Purpose</h3>
-          <p>The goal of Human Layer is not to slow technological progress.</p>
-          <p>Its goal is to ensure that increasingly powerful systems remain compatible with human decision integrity.</p>
-          <p class="em">Human Layer is not a product — it is a conceptual framework intended to guide the design of future human–AI systems.</p>
-        </div>
-
-        <div class="about-block reveal d2">
-          <h3>Author</h3>
-          <p>Human Layer was initiated by Edgar Prieto Sarrat from Barcelona as an independent conceptual exploration into the architecture of human–AI interaction.</p>
-          <p>The project aims to stimulate discussion among researchers, technologists, institutions, and policymakers interested in the long-term governance of intelligent systems.</p>
-        </div>
-
-        <div class="about-block reveal d3">
-          <h3>Contact</h3>
-          <p>For research collaboration, discussion, or institutional interest:</p>
-          <a href="mailto:contact@humanlayer.tech" class="ext-link">contact@humanlayer.tech <span class="arr">→</span></a>
-          <a href="https://github.com/humanlayer-arch" target="_blank" rel="noopener" class="ext-link">github.com/humanlayer-arch <span class="arr">→</span></a>
-        </div>
-
-      </div>
-
-      <div class="about-close reveal">
-        <span class="acd"></span>
-        <span class="acl"></span>
-        <span class="acd"></span>
-      </div>
+      <p>Human Layer fue iniciado por Edgar Prieto Sarrat como una exploración conceptual sobre la arquitectura de interacción humano–IA.</p>
 
     </div>
   </section>
@@ -282,21 +181,7 @@
   <!-- ─── FOOTER ─── -->
   <footer>
     <div class="wrap ft-row">
-      <div class="ft-brand">
-        <span class="ft-name">Human Layer</span>
-        <span class="mono ft-desc">Conceptual framework for human–AI systems</span>
-      </div>
-      <div class="ft-dots"><span class="ftd"></span><span class="ftd"></span></div>
-      <nav class="ft-nav">
-        <a href="Human-Layer-White-Paper.pdf" target="_blank">
-        Download White Paper
-        </a>
-        <a href="https://github.com/humanlayer-arch" target="_blank">GitHub</a>
-        <a href="mailto:contact@humanlayer.tech">Contact</a>
-      </nav>
-    </div>
-    <div class="wrap ft-copy">
-      <span class="mono">© 2026 Human Layer — All conceptual rights reserved.</span>
+      <span class="mono">© 2026 Human Layer</span>
     </div>
   </footer>
 
